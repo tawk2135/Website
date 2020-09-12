@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro-Orion:Accueil</title>
+    <link rel="stylesheet" href="./css/StylesheetPrinc.css">
+</head>
+
+<body>
+    <button id="topright" onclick="myFunction()">Derniere mise a jour</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var x = new Date(document.lastModified);
+            document.getElementById("demo").innerHTML = x;
+
+        }
+    </script>
+
+    <h1>Astro-Orion</h1>
+    <h2><em>Notre Horoscope, Votre Avenir</em></h2>
+    <h2><img src="./FichierImages/AstroLogoOrion.jpg" alt="Logo"></h2>
+
+    <nav class="navig">
+        <img src="./FichierImages/AstroLogoOrion.jpg" alt="Logo"><br>
+        <a href="Accueil.html">Accueil</a><br>
+        <a href="Horoscope.html">Horoscope</a><br>
+        <a href="Histoire.html">Un peu d'histoire</a><br>
+        <a href="Contact.html">Contactez-nous</a><br>
+
+    </nav>
+    <hr>
+    <h3>Objectifs de l'astrologie</h3>
+    <p>Avoir un but dans la vie selon votre signe astrologique
+        Nous avons toutes et tous des attentes différentes de l'existence.
+        Pour certains, construire une vie de famille sera la clé du bonheur,
+        tandis que d'autres préféreront la liberté et l'indépendance.
+        Votre signe astrologique détermine vos attentes et vos rêves.
+        Découvrez sans plus attendre le moteur qui vous fait avancer !</p>
+    <h3>Qu'est ce que l'astrologie?</h3>
+    <p>Art de déterminer le caractère et de prévoir la destinée humaine
+        par l'étude de l'influence supposée des astres.</p>
+    <h3>Comment connaitre votre signe astrologique?</h3>
+    <p>Le calcul du thème astral est déterminé par plusieurs critères : la date,
+        l'heure et le lieu de votre naissance. On en déduit alors à la fois votre signe astrologique,
+        votre ascendant et votre signe dans l'astrologie chinoise. ...
+        L'astrologie n'aura ainsi plus aucun secret pour vous !</p>
+    <h3>Qu'est-ce que l'astronomie</h3>
+    <p>Science des astres, des corps célestes (y compris la Terre) et de la structure de l'univers.</p>
+
+
+</body>
+<small><sup>&copy;</sup>AstrologieOrion</small> </body>
+
+</html>

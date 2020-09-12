@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjour tout le monde</title>
+    <link rel="stylesheet" href="testjava.css">
+    <script language='javascript' type="text/javascript" src="function.js"></script>
+</head>
+<body>
+    <label class="gras">Bienvenue sur mon site</label><br><br>
+    <script type="text/javascript">document.write("Bonjour tout le monde")
+    </script>
+    <br><br>
+    <span class="gras">Prenom</span>
+    <span id="prenom">Robert</span><br><br>
+<script>
+    loop();
+    loopdowhile();
+</script>
+
+
+    <button onclick="lirenomex();">test</button>
+    <br><br>
+    <button>Modifier le prenom</button>
+<input id="nouveaunom" type="text"/>
+
+    <noscript>Votre navigateur ne prend pas en charge ou a desactiver javascript</noscript>
+    <script>
+        afficheelement("chien","chat","Poney","Hamster","Tortue");
+        afficheelement();
+    </script>
+    <script>
+        document.write(nettoyerNoms("les","Cowboys","de","DALLAS"))
+        function nettoyerNoms(){
+            var s=""
+            for(j=0;j<nettoyerNoms.arguments.length;++j)
+            s+=nettoyerNoms.arguments[j].charAt(0).toUpperCase()+
+            nettoyerNoms.arguments[j].substr(1).toLowerCase()+" "
+            return s.substr(0,s.length-1)
+        }
+    </script>
+</body>
+</html>

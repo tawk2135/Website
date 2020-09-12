@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro-Orion: Horoscope </title>
+    <link rel="stylesheet" href="./css/StylesheetPrinc.css">
+</head>
+
+<body>
+    <h1>Astro-Orion</h1>
+    <h2><em>Notre Horoscope, Votre Avenir</em></h2>
+    <h2><a href="./Accueil.html"><img src="./FichierImages/AstroLogoOrion.jpg" alt="Logo" title="logo" />
+        </a></h2>
+
+    <nav class="navig">
+        <img src="./FichierImages/AstroLogoOrion.jpg" alt="Logo"><br>
+        <a href="Accueil.html">Accueil</a><br>
+        <a href="Horoscope.html">Horoscope</a><br>
+        <a href="Histoire.html">Un peu d'histoire</a><br>
+        <a href="Contact.html">Contactez-nous</a><br>
+
+    </nav>
+    <hr>
+    <form name="MonFormulaire" action="Votrehoroscope.html"  method="GET">
+        <fieldset name="Identification" id="Identification">
+            <legend>Informations</legend>
+            <p class="Requis" id="Civilite"><input type="radio" name="Civilite" id="Monsieur">
+                <label for="Name">Mr.</label>
+                <input type="radio" name="Civilite" id="Madame">
+                <label for="Madame">Mme.</label>
+
+            </p>
+            <p class="Requis"><label for="Prenom ">Prenom:</label>
+                <input type="text " name="Prenom " id="Prenom " required></p>
+            <p class="Requis"><label for="Nom">Nom:</label>
+                <input type="text " name="Nom" id="Nom" required></p>
+            <p class="Requis"> <label for="Date de naissance" class="Requis">Date de naissance:</label></label> <input
+                    type="date" name="Fete" id="Fete" /></p>
+            <p class="Requis"><label for="Signe Zodiac">Signe Zodiac:</label>
+                <select name="SigneZodiac" id="Province">
+                    <option>Bélier : 21 mars - 20 avril.</option>
+                    <option>Taureau : 21 avril - 21 mai</option>
+                    <option>Gémeaux : 22 mai - 21 juin</option>
+                    <option>Cancer : 22 juin - 22 juillet</option>
+                    <option>Lion : 23 juillet - 22 août</option>
+                    <option>Vierge : 23 août - 22 septembre</option>
+                    <option>Balance : 23 septembre - 22 octobre</option>
+                    <option>Scorpion : 23 octobre - 22 novembre</option>
+                    <option>Sagittaire : 23 novembre - 21 décembre</option>
+                    <option>Capricorne : 22 décembre - 20 janvier</option>
+                    <option>Verseau : 21 janvier - 19 février</option>
+                    <option>Poissons : 20 février - 20 mars</option>
+                </select></p>
+            <p class="Requis"><input type="submit" /></p>
+
+        </fieldset>
+    </form>
+
+    
+</body>
+<small><sup>&copy;</sup>AstrologieOrion</small> </body>
+
+</html>
